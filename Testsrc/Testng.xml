@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Nopackage" >
+        <classes>
+            <!--class name="Regression.Master.SupplierTest" />
+            <class name="Regression.Master.CustomerTest" />
+            <class name="Regression.Master.AddbankTest" />
+            <class name="Regression.Master.TaxMasterTest" />
+            <class name="Regression.Master.SupplierTest" />
+           <class name="Regression.Master.CustomerTest" />
+            <class name="Regression.Master.TaxMasterTest" /-->
+            <class name="Admin.UserMasterTest" />
+            <class name="Admin.ChangePasswordTest" />
+            <class name="Admin.PermissionTest" />
+            <class name="Admin.EmailTest" />
+       </classes>
+   </test>
+
+       </suite>
+
+
+<!--suite name="ReportGeneration" verbose="9" >
+<listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2" />
+</listeners>
+
+<listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+<test name="a">
+    <classes>
+
+        <class name="testlogin.Logintest" />
+        <method>
+            <include name="Logintes"/>
+            <include name="Supplier"/>
+            <include name="customer"/>
+            <include name="Bank"/>
+            <include name="TaxMaster"/>
+        </method>
+        <class name="testadmin.adminfinaltest" />
+        <method>
+            <include name="UserMaster"/>
+            <include name="changepassword"/>
+            <include name="permission"/>
+            <include name="email"/>
+        </method>
+    </classes>
+</test>
+</suite-->
+
